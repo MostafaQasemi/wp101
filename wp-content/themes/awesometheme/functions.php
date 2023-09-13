@@ -13,6 +13,8 @@ function awesome_theme_setup(){
     add_theme_support('menu');
     add_theme_support('widgets');
     add_theme_support('custom-background');
+    add_theme_support('custom-header');
+    add_theme_support('post-thumbnails');
     register_nav_menu('primary','Primary Header Navigation');
     register_nav_menu('secendary','Footer Navigation');
     register_nav_menu('thirds','Sidbar Navigation');
